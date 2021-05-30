@@ -3,7 +3,7 @@
 using namespace std;
 
 
-int numOccurrences (set<int>& cont, int elt){
+int numOccurrences (set<int>& cont, int elt){  // If we use template function, we only need to write this once for use of any types
     int count = 0;
     set<int>::iterator iter;
     for(iter = cont.begin(); iter != cont.end(); ++iter){
