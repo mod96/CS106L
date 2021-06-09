@@ -7,7 +7,7 @@ int main(){
     Fraction you{1,2};
     Fraction res = me + you;
     std::cout << res << std::endl;
-
+    
     return 0;
 }
 
